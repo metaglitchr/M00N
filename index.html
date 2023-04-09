@@ -1,12 +1,86 @@
-<header>
-  <nav>
-    <ul>
-      <li><a href="https://github.com"><i class="fab fa-github"></i></a></li>
-      <li><a href="https://metaglitchr.com">Metaglitchr</a></li>
-      <li><a href="https://www.kismetwireless.net">Kismetwireless</a></li>
-      <li><a href="#">Other Link</a></li>
-      <li><a href="#">Other Link</a></li>
-      <li><a href="#">Other Link</a></li>
-    </ul>
-  </nav>
-</header>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Website Title</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+
+		/* Top bar styles */
+		.top-bar {
+			background-color: #333;
+			color: #fff;
+			height: 50px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 0 20px;
+		}
+
+		.top-bar a {
+			color: #fff;
+			text-decoration: none;
+			margin-right: 20px;
+		}
+
+		/* Sidebar styles */
+		.sidebar {
+			background-color: #eee;
+			height: 100%;
+			width: 200px;
+			position: fixed;
+			top: 50px;
+			left: 0;
+			padding: 20px;
+		}
+
+		.sidebar a {
+			display: block;
+			margin-bottom: 10px;
+			text-decoration: none;
+			color: #333;
+		}
+
+		/* Main content styles */
+		.main-content {
+			margin: 50px 0 0 200px;
+			padding: 20px;
+		}
+	</style>
+</head>
+<body>
+	<!-- Top bar -->
+	<div class="top-bar">
+		<div class="top-bar-icons">
+			<a href="#"><img src="icon1.png" alt="Icon 1"></a>
+			<a href="#"><img src="icon2.png" alt="Icon 2"></a>
+			<a href="#"><img src="icon3.png" alt="Icon 3"></a>
+		</div>
+		<div class="top-bar-links">
+			<a href="#">Link 1</a>
+			<a href="#">Link 2</a>
+			<a href="#">Link 3</a>
+			<a href="#">Link 4</a>
+		</div>
+	</div>
+
+	<!-- Sidebar -->
+	<div class="sidebar">
+		<a href="#">Brand 1</a>
+		<a href="#">Brand 2</a>
+		<a href="#">Brand 3</a>
+		<a href="#">Brand 4</a>
+		<a href="#">Brand 5</a>
+	</div>
+
+	<!-- Main content -->
+	<div class="main-content">
+		<h1>Welcome to our website!</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim, massa sit amet vestibulum lacinia, mauris enim vulputate sapien, quis feugiat turpis dolor vel risus. Sed id est eget nibh malesuada suscipit. Nam eleifend, arcu vel finibus feugiat, urna ex gravida sapien, vel posuere purus arcu a risus.</p>
+	</div>
+
+</body>
+</html>
